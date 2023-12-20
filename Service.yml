@@ -12,4 +12,5 @@ spec:
   type: LoadBalancer
 
 
-  #kubectl port-forward service/your-app-service 8080:80
+  #kubectl port-forward service/your-app-service 9090:80
+  #access the page at http://localhost:9090/login-page/
