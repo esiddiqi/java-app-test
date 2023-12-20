@@ -10,3 +10,6 @@ spec:
       port: 80
       targetPort: 8080
   type: LoadBalancer
+
+
+  #kubectl port-forward service/your-app-service 8080:80
