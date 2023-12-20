@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: login-page-deployement
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: login-page
+  template:
+    metadata:
+      labels:
+        app: login-page
+    spec:
+      containers:
+        - name: login-page-container
+          image: esiddiqi/java-app-test-docker-image:latest
+          ports:
+            - containerPort: 8080
