@@ -18,7 +18,7 @@
 
 Once you Clone the repo, You may build the application using below command  
 `mvn clean package`  
-This command will create a .war file in ./target directory  
+This command will create a login-page.war file in ./target directory  
 
 
 
@@ -26,7 +26,7 @@ This command will create a .war file in ./target directory
 
 ### Method 1 :  
 Once the War is created you may now Deploy the war on tomcat Web Server by just moving the war to ./tomcat/webapps Directory  
-Access the Login Page at `http://localhost:8080/login-page`  
+Access the Login Page at `http://localhost:8080/login-page`  (The Context path is usually your war file name i.e in this case login-page)
 
 
 ### Method 2 :  
