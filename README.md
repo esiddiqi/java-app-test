@@ -1,7 +1,7 @@
 # This is my test application for Performing Labs  
 
 - In this Project , I have created a JAVA application (Login Screen)
-- Form Which you may create the war file to be deployed on Web Server like Apache tomcat.
+- From which you may create the war file to be deployed on Web Server like Apache tomcat.
 
 
 Once you Clone the repo, You may build the application using below command  
