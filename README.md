@@ -15,8 +15,9 @@
 - Kubernetes
 ```
 
+
 Once you Clone the repo, You may build the application using below command  
-**`mvn clean package`**  
+`mvn clean package`  
 This command will create a .war file in ./target directory  
 
 
