@@ -4,6 +4,15 @@
 - From which you may create the war file to be deployed on Web Server like Apache tomcat.
 
 
+## Requirements:  
+`- Maven
+- Docker
+- Tomcat
+- JAVA
+- Kubectl
+- Minikube
+- Kubernetes`
+
 Once you Clone the repo, You may build the application using below command  
 **`mvn clean package`**  
 This command will create a .war file in ./target directory  
