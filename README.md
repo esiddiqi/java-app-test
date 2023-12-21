@@ -5,13 +5,15 @@
 
 
 ## Requirements:  
-`- Maven
+```
+- Maven
 - Docker
 - Tomcat
 - JAVA
 - Kubectl
 - Minikube
-- Kubernetes`
+- Kubernetes
+```
 
 Once you Clone the repo, You may build the application using below command  
 **`mvn clean package`**  
